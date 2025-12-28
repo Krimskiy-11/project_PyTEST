@@ -22,20 +22,3 @@ def say_this(word):
 
 def reverse_list(lst):
     return lst[::-1]
-
-def reverse_string(word):
-    return word[::-1]
-
-
-def list_avg(lst):
-    if len(lst) > 0:
-        return sum(lst) / len(lst)
-    return 0
-
-def needing_word(lst, my_type):
-    result = 0
-    if isinstance(lst, list):
-        for i in lst:
-            if isinstance(i, my_type):
-                result += 1
-    return result
