@@ -35,5 +35,3 @@ def test_list_avg(my_list):
 ])
 def test_needing_word(my_lst, my_type, result):
     assert needing_word(my_lst, my_type) == result
-
-    # assert needing_word()
